@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #534f4f; /* Cinza Tweed */
+            color: #ffffff; /* Branco Algodão */
+        }
+        .top-bar {
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .tabs {
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .tab {
+            font-weight: normal;
+            font-size: 16px;
+            cursor: pointer;
+            transition: font-weight 0.2s, font-size 0.2s;
+        }
+        .tab a {
+            text-decoration: none;
+            color: #f2f0e6; /* Branco Gelo */
+        }
+        .tab:hover {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        .icon {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #ffffff; /* Branco Algodão */
+            transition: transform 0.2s;
+        }
+        .icon:hover {
+            transform: scale(1.1);
+        }
+        .icon img {
+            width: 40px;
+            vertical-align: middle;
+        }
+        .left-align {
+            text-align: left;
+        }
+        .title {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 24px;
+            color: #f2f0e6; /* Branco Linho */
+            margin: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">Seu Logo</div>
+        <ul class="tabs">
+            <li class="tab"><a href="index.html" class="tab-link">Editorial</a></li>
+            <li class="tab"><a href="lei.html" class="tab-link">Lei 5194/66</a></li>
+            <li class="tab"><a href="crea.html" class="tab-link">CREA-SP</a></li>
+            <li class="tab"><a href="confea.html" class="tab-link">CONFEA</a></li>
+            <li class="tab"><a href="mutua.html" class="tab-link">MUTUA-SP</a></li>
+            <li class="tab"><a href="formulario.html" class="tab-link">Vamos Conversar</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="title">
+            <strong>Movimento por uma Gestão Democrática do CREA-SP</strong>
+        </div>
+        <p class="left-align"><strong>Prezados profissionais de engenharia,</strong></p>
+        <div class="text left-align">
+            <br>
+            Em 17/11/2023, os profissionais de engenharia  participarão das eleições democráticas  que  vão definir simultaneamente os gestores do crea-sp e do confea, para o triênio 2024-2026. Estas eleições , em que pese a descrença generalizada dos profissionais com o Sistema , para o bem ou para o mal  é  a única  oportunidade real de mudanças e renovação  administrativa em todos os níveis do Sistema, razão pela qual as escolhas que fizermos  precisam estar além de qualquer balcão de negócio.  Apesar de ser uma eleição diferenciada onde o eleitor menos instruído é portador  de um diploma  de curso superior , nem por isso, elas se diferenciam das eleições de ruas que elegem nossos deputados senadores, prefeitos  e governadores , que são hábeis na arte de enganar os eleitores .  É  ‘notório no ambiente político, a facilidade com que se prosperam propagandas enganosas, promessas irrealizáveis,  narrativas inverídicas, aparelhamento da máquina administrativa para facilitar o nepotismo e a corrupção, além de outros  malfeitos.
+            <br>
+            Nos últimos anos, salvo ledo engano, propagandas similares a esses esquemas deploráveis da política partidária começam a surgir nos nossos Conselhos regionais, secundarizando o atendimento dos legítimos interesses da engenharia. 
+            <br>
+            É imperativo e urgente a recolocação do crea-sp nos trilhos e sua  devolução aos profissionais de engenharia.     
+            <br>
+            Nesse contexto e diferentemente do que ocorreu em outras eleições, propomos que os diversos seguimentos votantes que compõem o Sistema Confea/Crea(s), solicitem a presença dos candidatos à presidência nas suas regiões para conhecerem publicamente suas ideias, para o necessário e transparente debate.  Reiteramos a necessidade que esses debates  ocorram em todas as regiões do estado, fundamentados nos planos de gestão dos candidatos. Os resultados conclusivos dessa discussões poderão ser incorporados ao plano de gestão dos candidatos para idealmente comporem um projeto coletivo que contemple os anseios da sociedade frente as atuais transformações socioeconômicas da era digital, que apontara os novos caminhos para o cumprimento  da real missão e visão de futuro do Sistema.  
+            <br>
+            A nação Crea- SP tem esperança gigante de que a compostura, isenção administrativa, respeito ao ser humano e a coisa púbica, também integrarão esse projeto coletivo, e, independente de quem vencer as eleições e, em 17/11/23, teremos registrado e aprovado na primeira  plenária do CREA-SP em  2024 um projeto compromissados com  a maioria dos profissionais de engenharia do Crea- SP para o  triênio 2024-2026 “Um Plano de Gestão exequível contemplando  e justificando  os desafios de uma administração em termos de relacionamentos entre o sistema  e  a diversidade  das organizações e stakeholders que o envolve, e, que certamente terá que ser destacado pelos postulantes ao cargo de presidente”.</p>
+	    <br> 
+        </div>
+        <p>Seu voto é muito importante!</p>
+        <a href="mailto:ocreaparaosengenheiros@gmail.com" class="icon">
+            <img src="envelope_icon.png" alt="Ícone de envelope">
+            <br>
+            <span class="icon">Vamos conversar?</span></p>
+        </a>
+        <div class="text">
+            ******Esse espaço foi construído  com auxílio de inteligência artificial e se destina a divulgar os projetos e ideias dos candidatos (desde que respeitosas  
+e  minimamente elaboradas) para:</p>
+            • Todos os profissionais de engenharia  que não  pertencem, não participam,  ou não frequentam o Sistema Crea-Mútua de São Paulo, apesar de pagar  
+religiosamente suas  anuidades.</p> 
+            • Aqueles  eleitores que queiram participar com ideias e sugestões, mas que exigem respeito e dignidade dos candidatos pois possuem motivação e consciência  
+ de que o embate eleitoral deve redundar na afirmação de lideranças e não no amesquinhamento do  concorrente.</p>
+            • Também são bem-vindos aqueles que  que reconhecem o sistema  ditatorial que impera nos Creas  Brasileiros obrigando gestores de associações, sindicatos   
+etç,  a terem o mesmo comportamento observado nos camaleões que é  mudar de cor quando observam perigos no ambiente, ou seja , aderem ao inimigo.</p>
+            **O pluralismo de pensamentos no formato que permite o  livre debate de ideias será garantido pelo   criador da plataforma</p>
+        </div>
+
+    </div>
+</body>
+</html>
