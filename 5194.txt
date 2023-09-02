@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eng_Agro_Geo</title>
+    <style>
+        /* Estilos CSS para a página */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 1.618em; /* Proporção áurea */
+            margin-bottom: 20px; /* Espaçamento adequado */
+        }
+
+        p {
+            font-size: 1em; /* Tamanho de fonte base */
+            line-height: 1.618; /* Proporção áurea para espaçamento entre linhas */
+            margin-bottom: 1.618em; /* Espaçamento adequado entre parágrafos */
+        }
+
+        /* Estilos para links */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo para o botão */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilos da barra de ferramentas */
+        .top-bar {
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .tab {
+            font-weight: normal;
+            font-size: 16px;
+            cursor: pointer;
+            transition: font-weight 0.2s, font-size 0.2s;
+        }
+
+        .tab a {
+            text-decoration: none;
+            color: #f2f0e6; /* Branco Gelo */
+        }
+
+        .tab:hover {
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">Eng_Agro_Geo</div>
+        <ul class="tabs">
+            <li class="tab"><a href="index.html" class="tab-link">Editorial</a></li>
+            <li class="tab"><a href="lei.html" class="tab-link">Lei 5194/66</a></li>
+            <li class="tab"><a href="crea.html" class="tab-link">CREA-SP</a></li>
+            <li class="tab"><a href="confea.html" class="tab-link">CONFEA</a></li>
+            <li class="tab"><a href="mutua.html" class="tab-link">MUTUA-SP</a></li>
+            <li class="tab"><a href="formulario.html" class="tab-link">Vamos Conversar</a></li>
+        </ul>
+    </div>
+    <header>
+        <h1>A Importância da Lei 5194/66 para a Engenharia</h1>
+    </header>
+    <div class="container">
+        <p>A Lei 5194/66, também conhecida como a Lei dos Engenheiros, é uma legislação fundamental para o exercício da profissão de engenharia no Brasil. Promulgada em 24 de dezembro de 1966, essa lei estabelece as diretrizes e regulamentações que norteiam a atuação dos engenheiros, além de criar órgãos de fiscalização e representação que desempenham um papel crucial na manutenção da qualidade e segurança das atividades engenheirais em todo o país.</p>
+
+        <p><strong>Órgãos Criados pela Lei 5194/66</strong></p>
+        <p>Dois órgãos centrais foram criados por essa legislação: o CONFEA (Conselho Federal de Engenharia e Agronomia) e os CREAs (Conselhos Regionais de Engenharia e Agronomia). O CONFEA é a entidade máxima que coordena, orienta e fiscaliza todas as atividades de engenharia e agronomia no território nacional. Por sua vez, os CREAs atuam em nível regional, supervisionando e regulamentando o exercício profissional de acordo com as peculiaridades de cada estado.</p>
+
+        <p><strong>Abrangência e Fiscalização</strong></p>
+        <p>A abrangência da Lei 5194/66 é vasta, abarcando todas as áreas da engenharia, desde a engenharia civil até a engenharia de produção. Ela visa garantir que os engenheiros atuem com ética e responsabilidade, assegurando a qualidade e a segurança das construções, projetos, sistemas e produtos que desenvolvem.</p>
+
+        <p>Através dos CREAs, a lei estabelece um rígido sistema de fiscalização das atividades dos engenheiros, garantindo que apenas profissionais devidamente habilitados exerçam suas funções. Isso é essencial para a proteção da sociedade, uma vez que as atividades da engenharia têm um impacto direto na segurança e bem-estar de todos.</p>
+
+        <p><strong>Benefícios para os Engenheiros</strong></p>
+        <p>A Lei 5194/66 também traz inúmeros benefícios para os engenheiros. Ela promove a valorização da profissão, estabelecendo padrões elevados de qualificação e competência. Além disso, ela cria um ambiente de confiança para os clientes e investidores, uma vez que a atuação dos engenheiros é respaldada por regulamentações rigorosas.</p>
+
+        <p>Em resumo, a Lei 5194/66 é o alicerce sobre o qual a engenharia brasileira se apoia. Ela garante a qualidade, segurança e ética no exercício profissional dos engenheiros, fortalecendo a importância dessa profissão para o desenvolvimento do país. Portanto, compreender e respeitar essa lei é essencial para todos os engenheiros, assegurando um futuro mais seguro e próspero para a engenharia no Brasil.</p>
+
+        <!-- Botão para acessar a Lei 5194/66 na íntegra -->
+        <a href="https://www.planalto.gov.br/ccivil_03/leis/L5194.htm" class="btn">Acesse aqui a Lei 5194/66 na íntegra</a>
+
+        <!-- Restante do conteúdo aqui -->
+    </div>
+</body>
+</html>

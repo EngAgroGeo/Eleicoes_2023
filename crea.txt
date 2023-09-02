@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eng_Agro_Geo</title>
+    <style>
+        /* Estilos CSS para a página */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            line-height: 1.618; /* Proporção áurea para espaçamento entre linhas */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 1.618em; /* Proporção áurea */
+            margin-bottom: 20px; /* Espaçamento adequado */
+        }
+
+        p {
+            font-size: 1em; /* Tamanho de fonte base */
+            margin-bottom: 1.618em; /* Espaçamento adequado entre parágrafos */
+        }
+
+        /* Estilos para links */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo para o botão */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.618em; /* Tamanho de fonte com proporção áurea */
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilos da barra de ferramentas */
+        .top-bar {
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .tab {
+            font-weight: normal;
+            font-size: 16px;
+            cursor: pointer;
+            transition: font-weight 0.2s, font-size 0.2s;
+        }
+
+        .tab a {
+            text-decoration: none;
+            color: #f2f0e6; /* Branco Gelo */
+        }
+
+        .tab:hover {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Estilo para remover negrito do texto específico */
+        .remove-negrito {
+            font-weight: normal !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">Eng_Agro_Geo</div>
+        <ul class="tabs">
+            <li class="tab"><a href="index.html" class="tab-link">Editorial</a></li>
+            <li class="tab"><a href="lei.html" class="tab-link">Lei 5194/66</a></li>
+            <li class="tab"><a href="crea.html" class="tab-link">CREA-SP</a></li>
+            <li class="tab"><a href="confea.html" class="tab-link">CONFEA</a></li>
+            <li class="tab"><a href="mutua.html" class="tab-link">MUTUA-SP</a></li>
+            <li class="tab"><a href="formulario.html" class="tab-link">Vamos Conversar</a></li>
+        </ul>
+    </div>
+    <header>
+        <h1>O que é o CREA-SP?</h1>
+    </header>
+    <div class="container">
+        <p class="remove-negrito">O CREA-SP, sigla para Conselho Regional de Engenharia e Agronomia do Estado de São Paulo, é uma autarquia federal criada pela Lei nº 5.194/1966, que regulamenta as profissões de Engenharia, Agronomia, Geologia, Meteorologia e demais áreas correlatas. O CREA-SP é responsável por fiscalizar e regulamentar o exercício profissional dessas áreas no estado de São Paulo.</p>
+
+        <p><strong>2. Qual é a função do CREA-SP?</strong></p>
+
+        <p>A função principal do CREA-SP é assegurar que as atividades profissionais de engenheiros, agrônomos, geólogos e meteorologistas sejam exercidas de acordo com as normas técnicas e éticas estabelecidas. Suas principais funções incluem:</p>
+
+        <ul>
+            <li>Registro e fiscalização de profissionais e empresas atuantes nas áreas da engenharia e agronomia.</li>
+            <li>Promoção e incentivo ao desenvolvimento tecnológico e científico nas áreas abrangidas.</li>
+            <li>Elaboração e divulgação de normas técnicas e éticas.</li>
+            <li>Mediação de conflitos e processos ético-disciplinares.</li>
+        </ul>
+
+        <p><strong>3. Qual a importância do CREA-SP?</strong></p>
+
+        <p>O CREA-SP desempenha um papel fundamental na sociedade e na economia do estado de São Paulo. Sua importância é evidenciada por diversos motivos:</p>
+
+        <ul>
+            <li><strong>Segurança:</strong> Garante que os profissionais dessas áreas estejam habilitados e atuem de acordo com padrões técnicos rigorosos, garantindo a segurança pública em projetos de engenharia e agronomia.</li>
+            <li><strong>Qualidade:</strong> Promove a qualidade técnica dos serviços prestados, incentivando a constante atualização e capacitação dos profissionais.</li>
+            <li><strong>Desenvolvimento:</strong> Contribui para o desenvolvimento econômico e tecnológico do estado, por meio do apoio à inovação e da disseminação de conhecimento técnico.</li>
+            <li><strong>Ética:</strong> Zela pela ética profissional, mantendo padrões elevados de conduta e responsabilidade dos profissionais registrados.</li>
+        </ul>
+
+        <p><strong>4. Como é o funcionamento do CREA-SP?</strong></p>
+
+        <p>O CREA-SP é uma entidade autônoma, composta por um conjunto de órgãos deliberativos e executivos, que atuam em conjunto para cumprir suas funções. Os principais órgãos são:</p>
+
+        <ul>
+            <li><strong>Plenário:</strong> É a instância máxima do CREA-SP, composta por conselheiros eleitos e indicados, que tomam decisões estratégicas e normativas.</li>
+            <li><strong>Diretoria Executiva:</strong> Responsável pela gestão administrativa e financeira do CREA-SP.</li>
+            <li><strong>Câmaras Especializadas:</strong> Tratam de assuntos específicos relacionados às áreas de engenharia, agronomia, geologia, meteorologia, entre outras.</li>
+            <li><strong>Inspetorias:</strong> Representações regionais do CREA-SP que executam ações de fiscalização e atendimento aos profissionais e empresas registradas.</li>
+        </ul>
+
+        <p><strong>5. Qual a importância do presidente do CREA-SP para a instituição?</strong></p>
+
+        <p>O presidente do CREA-SP desempenha um papel de liderança crucial na organização. Suas responsabilidades incluem:</p>
+
+        <ul>
+            <li><strong>Representação:</strong> O presidente é a figura pública que representa o CREA-SP em eventos, negociações e relações com outras entidades, governos e a sociedade em geral.</li>
+            <li><strong>Tomada de Decisões:</strong> Ele participa ativamente das decisões do Plenário e da Diretoria Executiva, influenciando políticas e diretrizes importantes para a instituição.</li>
+            <li><strong>Gestão:</strong> Responsável pela gestão administrativa e financeira da autarquia, o presidente é fundamental para o funcionamento eficaz do CREA-SP.</li>
+            <li><strong>Fiscalização e Ética:</strong> O presidente também zela pela integridade, ética e responsabilidade dos profissionais registrados, promovendo a fiscalização e ações disciplinares quando necessário.</li>
+        </ul>
+
+        <!-- Botão para acessar o link www.creasp.org.br -->
+        <a href="http://www.creasp.org.br/" class="btn" target="_blank">Acesse o site do CREA-SP</a>
+    </div>
+</body>
+</html>
