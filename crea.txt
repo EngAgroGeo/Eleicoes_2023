@@ -125,7 +125,7 @@
     <div class="container">
         <p class="remove-negrito">O CREA-SP, sigla para Conselho Regional de Engenharia e Agronomia do Estado de São Paulo, é uma autarquia federal criada pela Lei nº 5.194/1966, que regulamenta as profissões de Engenharia, Agronomia, Geologia, Meteorologia e demais áreas correlatas. O CREA-SP é responsável por fiscalizar e regulamentar o exercício profissional dessas áreas no estado de São Paulo.</p>
 
-        <p><strong>2. Qual é a função do CREA-SP?</strong></p>
+        <p><strong>Qual é a função do CREA-SP?</strong></p>
 
         <p>A função principal do CREA-SP é assegurar que as atividades profissionais de engenheiros, agrônomos, geólogos e meteorologistas sejam exercidas de acordo com as normas técnicas e éticas estabelecidas. Suas principais funções incluem:</p>
 
@@ -136,7 +136,7 @@
             <li>Mediação de conflitos e processos ético-disciplinares.</li>
         </ul>
 
-        <p><strong>3. Qual a importância do CREA-SP?</strong></p>
+        <p><strong>Qual a importância do CREA-SP?</strong></p>
 
         <p>O CREA-SP desempenha um papel fundamental na sociedade e na economia do estado de São Paulo. Sua importância é evidenciada por diversos motivos:</p>
 
@@ -147,7 +147,7 @@
             <li><strong>Ética:</strong> Zela pela ética profissional, mantendo padrões elevados de conduta e responsabilidade dos profissionais registrados.</li>
         </ul>
 
-        <p><strong>4. Como é o funcionamento do CREA-SP?</strong></p>
+        <p><strong>Como é o funcionamento do CREA-SP?</strong></p>
 
         <p>O CREA-SP é uma entidade autônoma, composta por um conjunto de órgãos deliberativos e executivos, que atuam em conjunto para cumprir suas funções. Os principais órgãos são:</p>
 
@@ -158,7 +158,7 @@
             <li><strong>Inspetorias:</strong> Representações regionais do CREA-SP que executam ações de fiscalização e atendimento aos profissionais e empresas registradas.</li>
         </ul>
 
-        <p><strong>5. Qual a importância do presidente do CREA-SP para a instituição?</strong></p>
+        <p><strong>Qual a importância do presidente do CREA-SP para a instituição?</strong></p>
 
         <p>O presidente do CREA-SP desempenha um papel de liderança crucial na organização. Suas responsabilidades incluem:</p>
 
