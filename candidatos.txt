@@ -205,7 +205,7 @@
             </div>
             <!-- Adicione os outros candidatos seguindo o mesmo padrão -->
         </div>
-
+	</p>
         <!-- Imagem relacionada ao processo eleitoral do CREA-SP -->
         <div class="imagem-processo-eleitoral">
             <a href="link_votacao_crea.html" target="_blank">
