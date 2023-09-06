@@ -10,7 +10,19 @@
             padding: 0;
             font-family: Arial, sans-serif;
             background-color: #534f4f; /* Cinza Tweed */
-            color: #ffffff; /* Branco Algodão */
+            color: #000000; /* Preto */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            color: #000000; /* Preto */
+            max-width: 800px; /* Largura máxima para criar a sensação de uma página A4 */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
         }
         .top-bar {
             background-color: #000;
@@ -19,6 +31,10 @@
             justify-content: space-between;
             align-items: center;
             padding: 10px;
+        }
+        .logo {
+            font-size: 12px; /* Tamanho reduzido pela metade */
+            transition: font-size 0.2s; /* Transição suave */
         }
         .tabs {
             display: flex;
@@ -29,17 +45,20 @@
         }
         .tab {
             font-weight: normal;
-            font-size: 16px;
             cursor: pointer;
-            transition: font-weight 0.2s, font-size 0.2s;
+            text-align: center; /* Centralizar texto */
+            transition: transform 0.2s;
         }
         .tab a {
             text-decoration: none;
             color: #f2f0e6; /* Branco Gelo */
+            text-transform: uppercase;
+            font-family: 'Arial Black', sans-serif; /* Alterado para Arial Black */
+            letter-spacing: 1px; /* Espaçamento entre letras */
+            font-size: 10px; /* Tamanho da fonte proporcional */
         }
-        .tab:hover {
-            font-weight: bold;
-            font-size: 18px;
+        .tab:hover a {
+            font-size: 14px; /* Aumentar o tamanho do texto ao passar o cursor */
         }
         .content {
             text-align: center;
@@ -49,7 +68,7 @@
             display: inline-block;
             margin-top: 20px;
             text-decoration: none;
-            color: #ffffff; /* Branco Algodão */
+            color: #000000; /* Preto */
             transition: transform 0.2s;
         }
         .icon:hover {
@@ -66,7 +85,7 @@
             text-transform: uppercase;
             font-weight: bold;
             font-size: 24px;
-            color: #f2f0e6; /* Branco Linho */
+            color: #000000; /* Preto */
             margin: 20px 0;
             text-align: center;
         }
@@ -82,69 +101,75 @@
     </style>
 </head>
 <body>
-    <div class="top-bar">
-        <div class="logo">Eng_Agro_Geo</div>
-        <ul class="tabs">
-            <li class="tab"><a href="index.html" class="tab-link">Editorial</a></li>
-            <li class="tab"><a href="lei.html" class="tab-link">Lei 5194/66</a></li>
-            <li class="tab"><a href="crea.html" class="tab-link">CREA-SP</a></li>
-            <li class="tab"><a href="confea.html" class="tab-link">CONFEA</a></li>
-            <li class="tab"><a href="mutua.html" class="tab-link">MUTUA-SP</a></li>
-            <li class="tab"><a href="formulario.html" class="tab-link">Vamos Conversar</a></li>
-            <li class="tab"><a href="candidatos.html" class="tab-link">Candidatos à Presidência do CREA-SP</a></li>
-        </ul>
-    </div>
-    <div class="content">
-        <div class="title">
-            <strong>Eleições no sistema CONFEA CREA MUTUA</strong></p>
-            <strong>Movimento por uma Gestão Democrática do CREA-SP</strong></p>
+    <div class="container">
+        <div class="top-bar">
+            <div class="logo">Eng_Agro_Geo</div>
+            <ul class="tabs">
+                <li class="tab"><a href="index.html" class="tab-link">Editorial</a></li>
+                <li class="tab"><a href="5194.html" class="tab-link">Lei 5194/66</a></li>
+                <li class="tab"><a href="CREA.html" class="tab-link">CREA-SP</a></li>
+                <li class="tab"><a href="CONFEA.html" class="tab-link">CONFEA</a></li>
+                <li class="tab"><a href="MUTUA.html" class="tab-link">MUTUA-SP</a></li>
+                <li class="tab"><a href="formulario.html" class="tab-link">Vamos Conversar</a></li>
+                <li class="tab"><a href="candidatos.html" class="tab-link">Candidatos à Presidência do CREA-SP</a></li>
+            </ul>
         </div>
-        <p class="left-align"><strong>Prezados profissionais de engenharia,</strong></p>
-	<br>
-        <div class="text left-align double-space">
-            Em 17/11/2023, os profissionais de  engenharia  participarão de eleições democráticas  que definirão simultaneamente os gestores do Conselho Regional de Engenharia e Agronomia do estado de São Paulo “Crea-SP”, e do Conselho Federal de engenharia e  Agronomia do Brasil  “Confea” , para o triênio 2024-2026. Em que pese a descrença generalizada dos profissionais com tais Conselhos, estas eleições, para o bem ou para o mal,  representam  a única  oportunidade real de oxigenação e mudanças no referido Sistema, razão pela qual, as escolhas que fizermos  precisam estar além do balcão de negócios. Apesar de ser uma eleição diferenciada, pois, todos os eleitores são portadores de um diploma de curso superior, nem por isso, elas  contrastam com as eleições de ruas que elegem nossos deputados, senadores, prefeitos e governadores. É notório em ambientes político-partidários, a facilidade com que prosperam propagandas enganosas, promessas irrealizáveis, narrativas inverídicas, uso da máquina administrativa,  corrupção, além de outros  malfeitos diariamente exibidos na mídia.
-            <BR>
-            Nos últimos anos, salvo ledo engano, alguns desses procedimentos, começam a contaminar a gestão dos Conselhos Regionais, colocando em risco os legítimos interesses e atividades fins da engenharia. Um possível exemplo a ser analisado, refere-se ao último evento relativo ao Colégios de inspetores de 2023, realizado na cidade de Santos(SP). A julgar pelo conteúdo dos discursos e materiais produzidos e publicados, esses Colégios estão deixando de ser - Um fórum permanente para propor e discutir diretrizes objetivando aprimorar o trabalho de fiscalização executado pelos profissionais do  Crea-SP, para se transformarem em – Palco para  debates em busca de soluções  de inovação que transformem os 645 municípios paulistas em cidades inteligente- (primeiro parágrafo da página 5 do Relatório Técnico do Segundo Simpósio Nacional sobre Cidades Inteligentes- 2023) ,ou acesse https://simposiocidadesinteligentes.creasp.com.br/wp-content/uploads/2023/08/230720-CREA-BOOK-Relatorio-Simposio-digital-AF.pdf. 
+        <div class="content">
+            <div class="title">
+                <strong style="color: #000000;">Eleições no sistema CONFEA CREA MUTUA</strong>
+                <br>
+                <strong style="color: #000000;">Movimento por uma Gestão Democrática do CREA-SP</strong>
+            </div>
+            <p class="left-align"><strong>Prezados profissionais de engenharia,</strong></p>
+            <!-- Resto do conteúdo -->
+            <div class="text left-align double-space">
+	    Em 17/11/2023, os profissionais de  engenharia  participarão de eleições democráticas  que definirão simultaneamente os gestores do Conselho Regional de 	    Engenharia e Agronomia do estado de São Paulo “Crea-SP”, e do Conselho Federal de engenharia e  Agronomia do Brasil  “Confea” , para o triênio 2024-2026. 	    Em que pese a descrença generalizada dos profissionais com tais Conselhos, estas eleições, para o bem ou para o mal,  representam  a única  oportunidade 	    real de oxigenação e mudanças no referido Sistema, razão pela qual, as escolhas que fizermos  precisam estar além do balcão de negócios. Apesar de ser uma 	    eleição diferenciada, pois, todos os eleitores são portadores de um diploma de curso superior, nem por isso, elas  contrastam com as eleições de ruas que 	    elegem nossos deputados senadores, prefeitos e governadores. É notório em ambientes político-partidários, a facilidade com que prosperam propagandas 	    enganosas, promessas irrealizáveis, narrativas inverídicas, uso da máquina administrativa,  corrupção, além de outros  malfeitos diariamente exibidos na 	    mídia.
 	    <br>
-	    Vale esclarecer que independentemente se as cidades serão inteligentes, resilientes, excelentes, ETC, o  que tem sido gerado nesses simpósios não representam subsídios importantes para contribuir com a construção de um sistema de políticas Públicas municipais, estaduais ou nacionais para as cidades do futuro. Certamente nos próximos anos a produção de conhecimento científico-tecnológico, bem como, a formação de competentes profissionais de engenharia para as cidades do futuro continuará a depender das Universidades. Da mesma forma os conselhos de profissões serão muito mais  exigidos do que agora  para fiscalizar os profissionais das áreas  tecnológicas, incluindo principalmente aqueles responsáveis por parte do que se materializara com a implementação das políticas públicas propostas  pelos governantes  para cidades inteligentes, no âmbito das exigências dos 17 objetivos do desenvolvimento sustentado proposto pela  ONU. 
-            <br>
-             Nesse contexto, a reflexão por parte dos engenheiros eleitores é importante  até para correções de rota, se for o caso, pois diferentemente do que ocorreu em outras eleições, é possível hoje a participação ativa e massiva desses profissionais, por meio das novas tecnologias e ferramentas digitais disponíveis. Com isto será possível subsidiar  encontros  regionais entre eleitores e candidatos para discutirem publicamente suas ideias, embasadas  e documentadas em um plano de gestão, e, assim, promoverem o necessário e transparente debate de suas ideias com a comunidade votantes.      
-            <br>
-            Os resultados  dessa discussões certamente aprimorarão os Projetos de gestão dos candidatos para idealmente se tornarem um projeto coletivo que contemple os anseios da sociedade frente às atuais transformações socioeconômicas da era digital, que apontará os novos caminhos para o cumprimento  da real missão e visão de futuro do Sistema.  
-            <br>
-            A Nação Crea- SP tem esperança gigante de que a compostura, isenção administrativa, ética e respeito ao ser humano e a coisa pública, também integrarão esse projeto coletivo.
+	    Nos últimos anos, salvo ledo engano, alguns desses procedimentos, começam a contaminar a gestão dos Conselhos Regionais, colocando em risco os legítimos 	    interesses e atividades fins da engenharia. Um possível exemplo para este fato, refere-se ao último evento relativo ao Colégios de inspetores de 2023, 	    realizado na cidade de Santos(SP). A julgar pelo conteúdo dos discursos e materiais produzidos e publicados, esses Colégios deixaram de ser -Um fórum 	    permanente para propor e discutir diretrizes objetivando aprimorar o trabalho de fiscalização executado pelos profissionais do  Crea-SP, para se 	    transformarem em – Palco para  debates em busca de soluções  de inovação que transformem os 645 municípios paulistas em cidades inteligente- (primeiro 	    parágrafo da página 5 do Relatório Técnico do Segundo Simpósio Nacional sobre Cidades Inteligentes- 20223.ou acesse 	    https://simposiocidadesinteligentes.creasp.com.br/wp-content/uploads/2023/08/230720-CREA-BOOK-Relatorio-Simposio-digital-AF.pdf.
 	    <br>
-	    Nesse sentido, independentemente de quem vencer as eleições e, em 17/11/23, teremos registrado e aprovado na primeira  plenária anual, um projeto comprometido e moldado pela vontade da maioria dos profissionais de engenharia do Crea- SP para o  triênio 2024-2026 “- Enfim um  Plano de Gestão exequível pactuando e justificando  os desafios de uma administração em tempos de mudanças contínuas e ágeis que  se não for conduzida adequadamente pelos postulantes ao cargo, todo o sistema poderá colapsar...
+	    Vale esclarecer que independentemente se as cidades serão inteligentes, resilientes, excelentes, ETÇ, o  que tem sido gerado nesses simpósios não 	    representam subsídios  para contribuir com a construção de um sistema de políticas Públicas municipais, estaduais ou nacionais para as cidades do futuro. 	    Certamente nos próximos anos a produção de conhecimento científico-tecnologicos, bem como, a formação de competentes profissionais de engenharia para 	    atuarem nas cidades do futuro, continuarão a depender das Universidades. Da mesma que caberá aos conselhos de profissões fiscalizarem os profissionais das 	    áreas  tecnológicas, principalmente aqueles responsáveis por parte do que se materializar com a implementação das políticas públicas propostas  pelos 	    governantes  para cidades inteligentes, e que deverão contemplar as exigências dos 17 objetivos do desenvolvimento sustentado proposto pela  ONU.
+	    <br>
+	    Nesse contexto, a reflexão por parte dos engenheiros eleitores é importante  até para correções de rota, se for o caso, pois diferentemente do que ocorreu 	    em outras eleições, é possível hoje a participação ativa e massiva desses profissionais, por meio das novas tecnologias e ferramentas digitais disponíveis. 	    Com isto sera possível subsidiar  encontros  regionais entre eleitores e candidatos para discutirem publicamente suas ideias, embasadas  e documentadas em 	    um plano de gestão, e, assim, promoverem o necessário e transparente debate de suas ideias com a comunidade votantes.
+	    <br>
+	    Os resultados  dessa discussões certamente aprimorarão os Projetos de gestão dos candidatos para idealmente se tornarem  em  um projeto coletivo que 	    contemple os anseios da sociedade frente as atuais transformações socioeconômicas da era digital, que apontara os novos caminhos para o cumprimento  da 	    real missão e visão de futuro do Sistema. 
+	    <br> 
+	    A Nação Crea- SP tem esperança gigante de que a compostura, isenção administrativa, ética e respeito ao ser humano e a coisa púbica, também integrarão esse 	    projeto coletivo. 
+	    <br> 
+	    Nesse sentido, independentemente de quem vencer as eleições e, em17/11/23, teremos registrado e aprovado na primeira  plenária anual, um projeto 	    compromissado e moldado pela vontade da maioria dos profissionais de engenharia do Crea- SP para o  triênio 2024-2026 “- Enfim um  Plano de Gestão 	    exequível pactuando e justificando  os desafios de uma administração em tempos de mudanças continuas e ágeis que  se não for conduzido adequadamente pelos 	    postulantes ao cargo, todo o sistema poderá colapsar. Em síntese, a participação majoritária de todos os profissionais de engenharia nesse processo de 	    escolha é fundamental e poderá ser histórica para as mudanças  que todos querem ver materializadas no Sistema Confea/Crea(s)/Mutua. 
+	    <br> 	    
         </div>
-        <p class="double-space important-text">SUA PARTICIPAÇÃO NA ESCOLHA É IMPORTANTE, VOTE NO MELHOR!</p>
+	        <p class="double-space important-text">SUA PARTICIPAÇÃO NA ESCOLHA É IMPORTANTE, VOTE NO MELHOR!</p>
         <a href="mailto:ocreaparaosengenheiros@gmail.com" class="icon">
             <img src="envelope_icon.png" alt="Ícone de envelope">
             <br>
             <span class="icon">Vamos conversar?</span></p>
         </a>
         <div class="text left-align double-space">
-            Esse espaço em construção colaborativa com vários profissionais do sistema pode ser acessado através do endereço https://engagrogeo.github.io/Eleicoes_2023/index.html,e destina-se a :</p>
-	    1- Garantir a democratização de oportunidades para que os candidatos se conectem localmente e regionalmente com os eleitores e com eles realizem um debate de ideias. </p>
+        Esse espaço em construção colaborativa com vários profissionais do sistema pode ser acessado através do endereço         https://engagrogeo.github.io/Eleicoes_2023/index.html,e destina-se a :</p>
+	    1- Garantir a democratização de oportunidades para que os candidatos se conectem localmente e regionalmente com os eleitores e com eles realizem um debate         de ideias. </p>
 	    2- Hospedar os Planos de Gestão dos candidatos explicitando suas ideias realizadoras para o Crea-SP durante o triênio 2024-2026. </p>
 	    3- Discutir e moldar comunitariamente os melhores propósitos e as melhores propostas para condução do CREA-SP no futuro imediato. </p>	    
 	    Em síntese, nesse espaço são benvindos : </p>
 	    •       Todos os profissionais de engenharia que queiram apresentar suas reivindicações ao Crea-SP.</p>
-	    •       Eleitores que com suas ideias e sugestões possam e queiram exigir dos candidatos um tratamento respeitoso e digno aos profissionais do Sistema.  </p>
+	    •       Eleitores que com suas ideias e sugestões possam e queiram exigir dos candidatos um tratamento respeitoso e digno aos profissionais do Sistema.          </p>
 	    •       Eleitores conscientes de que o embate eleitoral deve redundar na afirmação de lideranças e não no amesquinhamento do concorrente. </p>
 	    •       Eleitores convictos ou não, que, somente decisões participativas e colegiadas podem promover o avanço  institucional. </p>
-	    •       Eleitores  e candidatos que acreditam, ou não, que, o modelo de gestão atualmente implantados nos Crea(s) é extremamente centralizador, totalmente obsoleto, autoritário, e precisa ser democratizado. </p>
-	    •       Candidatos que tenham  contribuições importantes e que saiba apresentá-las em um Plano de Gestão estruturado e adequado para cumprir e fazer cumprir a missão tão importante do CREA-SP-“ PROTEGER A SOCIEDADE”</p>
-	    •       Candidatos que compareçam ao debate de ideias, assumindo compromissos e deixando claro para os eleitores a seriedade e exequibilidade de suas propostas durante o mandato  </p>
+	    •       Eleitores  e candidatos que acreditam, ou não, que, o modelo de gestão atualmente implantados nos Crea(s) é extremamente centralizador, totalmente         obsoleto, autoritário, e precisa ser democratizado. </p>
+	    •       Candidatos que tenham  contribuições importantes e que saiba apresentá-las em um Plano de Gestão estruturado e adequado para cumprir e fazer         cumprir a missão tão importante do CREA-SP-“ PROTEGER A SOCIEDADE”</p>
+	    •       Candidatos que compareçam ao debate de ideias, assumindo compromissos e deixando claro para os eleitores a seriedade e exequibilidade de suas         propostas durante o mandato  </p>
 	    •       Candidatos que venham para trabalhar eticamente e de forma honorífica e totalmente transparente conforme apregoado pelo estatuto do CREA-SP.</p>
-	    •       Enfim, são benvindos todos os candidatos e eleitores (da direita, da esquerda e do centro), que queiram discutir as melhores ideias que possam conduzir o Crea-SP rumo ao  futuro desejado.</p>
+	    •       Enfim, são benvindos todos os candidatos e eleitores (da direita, da esquerda e do centro), que queiram discutir as melhores ideias que possam         conduzir o Crea-SP rumo ao  futuro desejado.</p>
 	    •       Eleitores engenheiros que tenham outras sugestões que possam  ajudar no debate também são bem-vindos </p>
-	    •       O pluralismo de pensamentos no formato que permite o respeitoso e livre debate de ideias sera garantido pelos colaboradores que auxiliaram na criação desta plataforma</p>
+	    •       O pluralismo de pensamentos no formato que permite o respeitoso e livre debate de ideias sera garantido pelos colaboradores que auxiliaram na         criação desta plataforma</p>
 	    Para isto será criado uma aba para cada candidato, enumerada de 1 a N, por ordem alfabética para qualquer candidato que queira utilizar o Blog.</p>
-
+        Informações Gerais para os candidatos:</p>
+        Foram criadas abas especificas para os candidato(uma para cada um),com espaços definidos para contemplar:</p> 
+        Informações curriculares resumidas</p>
+        Plano de gestão para o Crea-SP referente ao triênio 2024-2026</p>
+        Perguntas escritas dos eleitores</p>
+        respostas dos candidatos ( escrita ou no formato podcast)</p>
         </div>
     </div>
 </body>
 </html>
-<div>
-</body>
-</html>
+
