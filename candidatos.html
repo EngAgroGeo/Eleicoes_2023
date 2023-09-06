@@ -132,6 +132,36 @@
         .candidato:hover .candidato-nome {
             font-weight: bold;
             font-size: 1.2em;
+        }   
+        /* Estilo para centralizar imagem e texto e destacar ao passar o mouse */
+        .imagem-processo-eleitoral {
+            text-align: center; /* Alinhar horizontalmente ao centro */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Alinhar verticalmente ao centro */
+            margin-top: 20px;
+        }
+
+        .imagem-processo-eleitoral img {
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.3s; /* Adicione uma transição para a imagem */
+        }
+
+        .imagem-processo-eleitoral:hover img {
+            transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+        }
+
+        .processo-eleitoral-nome {
+            margin-top: 10px;
+            font-weight: bold;
+            transition: font-size 0.3s; /* Adicione uma transição para o tamanho da fonte */
+        }
+
+        /* Ao passar o mouse, aumente o tamanho da fonte e o texto fica em negrito */
+        .imagem-processo-eleitoral:hover .processo-eleitoral-nome {
+            font-size: 1.2em; /* Tamanho maior ao passar o mouse */
+            font-weight: bold; /* Texto em negrito ao passar o mouse */
         }
     </style>
 </head>
@@ -156,60 +186,61 @@
         <div class="candidatos">
             <div class="candidato">
                 <a href="link_candidato_1.html" target="_blank">
-                    <img src="imagem_candidato_1.jpg" alt="Candidato 1">
+                    <img src="fotos/Avatar_Masculino.jpg" alt="Candidato 1">
                     <div class="candidato-nome">Alfonso Barbosa Rodrigues</div>
                 </a>
             </div>
             <div class="candidato">
                 <a href="link_candidato_2.html" target="_blank">
-                    <img src="imagem_candidato_2.jpg" alt="Candidato 2">
+                    <img src="fotos/Avatar_Masculino.jpg" alt="Candidato 2">
                     <div class="candidato-nome">André Figueira Marzolla</div>
                 </a>
             </div>
 
             <div class="candidato">
                 <a href="link_candidato_3.html" target="_blank">
-                    <img src="imagem_candidato_3.jpg" alt="Candidato 3">
+                    <img src="fotos/Avatar_Masculino.jpg" alt="Candidato 3">
                     <div class="candidato-nome">Antonio Roberto Martins</div>
                 </a>
             </div>
             <div class="candidato">
                 <a href="link_candidato_4.html" target="_blank">
-                    <img src="imagem_candidato_4.jpg" alt="Candidato 4">
+                    <img src="fotos/Avatar_Masculino.jpg" alt="Candidato 4">
                     <div class="candidato-nome">Carlos Eduardo de Sousa</div>
                 </a>
             </div>
             <div class="candidato">
                 <a href="link_candidato_5.html" target="_blank">
-                    <img src="imagem_candidato_5.jpg" alt="Candidato 5">
+                    <img src="fotos/Avatar_Masculino.jpg" alt="Candidato 5">
                     <div class="candidato-nome">João Batista Serroni de Olivia</div>
                 </a>
             </div>
             <div class="candidato">
                 <a href="link_candidato_6.html" target="_blank">
-                    <img src="imagem_candidato_6.jpg" alt="Candidato 6">
+                    <img src="fotos/Avatar_Masculino.jpg" alt="Candidato 6">
                     <div class="candidato-nome">José Manoel Ferreira Gonçalves</div>
                 </a>
             </div>
             <div class="candidato">
                 <a href="link_candidato_7.html" target="_blank">
-                    <img src="imagem_candidato_7.jpg" alt="Candidato 7">
+                    <img src="fotos/Avatar_Masculino.jpg" alt="Candidato 7">
                     <div class="candidato-nome">Ligia Marta Mackey</div>
                 </a>
             </div>
             <div class="candidato">
                 <a href="link_candidato_8.html" target="_blank">
-                    <img src="imagem_candidato_8.jpg" alt="Candidato 8">
+                    <img src="fotos/Avatar_Masculino.jpg" alt="Candidato 8">
                     <div class="candidato-nome">Valdir Paezani</div>
                 </a>
             </div>
             <!-- Adicione os outros candidatos seguindo o mesmo padrão -->
         </div>
+        <br>
 	</p>
         <!-- Imagem relacionada ao processo eleitoral do CREA-SP -->
         <div class="imagem-processo-eleitoral">
-            <a href="link_votacao_crea.html" target="_blank">
-                <img src="imagem_processo_eleitoral.jpg" alt="Processo Eleitoral CREA-SP">
+            <a href="https://www.creasp.org.br/noticias/eleicoes-sistema-confea-crea-e-mutua-2023/" target="_blank">
+                <img src="fotos/imagem_processo_eleitoral.jpg" alt="Processo Eleitoral CREA-SP">
                 <div class="processo-eleitoral-nome">Processo Eleitoral CREA-SP</div>
             </a>
         </div>
