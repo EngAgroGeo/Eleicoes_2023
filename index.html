@@ -1,29 +1,72 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O CREA que queremos</title>
+    <title>Eng_Agro_Geo</title>
     <style>
+        /* Estilos CSS para a página */
         body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #534f4f; /* Cinza Tweed */
-            color: #000000; /* Preto */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            line-height: 1.618; /* Proporção áurea para espaçamento entre linhas */
         }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
         .container {
-            background-color: white;
-            color: #000000; /* Preto */
-            max-width: 800px; /* Largura máxima para criar a sensação de uma página A4 */
+            max-width: 800px;
+            margin: 20px auto;
             padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
+        h1 {
+            font-size: 1.618em; /* Proporção áurea */
+            margin-bottom: 20px; /* Espaçamento adequado */
+        }
+
+        p {
+            font-size: 1em; /* Tamanho de fonte base */
+            margin-bottom: 1.618em; /* Espaçamento adequado entre parágrafos */
+        }
+
+        /* Estilos para links */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo para o botão */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.618em; /* Tamanho de fonte com proporção áurea */
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilos da barra de ferramentas */
         .top-bar {
             background-color: #000;
             color: white;
@@ -32,10 +75,7 @@
             align-items: center;
             padding: 10px;
         }
-        .logo {
-            font-size: 20px; /* Tamanho reduzido pela metade */
-            transition: font-size 0.2s; /* Transição suave */
-        }
+
         .tabs {
             display: flex;
             gap: 20px;
@@ -43,26 +83,36 @@
             margin: 0;
             padding: 0;
         }
+
         .tab {
             font-weight: normal;
+            font-size: 16px;
             cursor: pointer;
-            text-align: center; /* Centralizar texto */
-            transition: transform 0.2s;
+            transition: font-weight 0.2s, font-size 0.2s;
         }
+
         .tab a {
             text-decoration: none;
             color: #f2f0e6; /* Branco Gelo */
+        }
+
+        .tab:hover {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Estilo para remover negrito do texto específico */
+        .remove-negrito {
+            font-weight: normal !important;
+        }
+        .double-space {
+            line-height: 2;
+        }
+        .important-text {
+            font-size: 48px;
+            font-weight: bold;
             text-transform: uppercase;
-            font-family: 'Arial Black', sans-serif; /* Alterado para Arial Black */
-            letter-spacing: 1px; /* Espaçamento entre letras */
-            font-size: 10px; /* Tamanho da fonte proporcional */
-        }
-        .tab:hover a {
-            font-size: 14px; /* Aumentar o tamanho do texto ao passar o cursor */
-        }
-        .content {
-            text-align: center;
-            padding: 20px;
+            color: #ffcc00; /* Cor personalizada */
         }
         .icon {
             display: inline-block;
@@ -75,54 +125,40 @@
             transform: scale(1.1);
         }
         .icon img {
-            width: 40px;
+            width: 80px;
             vertical-align: middle;
         }
         .left-align {
             text-align: left;
         }
-        .title {
-            text-transform: uppercase;
-            font-weight: bold;
-            font-size: 24px;
-            color: #000000; /* Preto */
-            margin: 20px 0;
+        .centro {
             text-align: center;
         }
-        .double-space {
-            line-height: 2;
-        }
-        .important-text {
-            font-size: 48px;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #ffcc00; /* Cor personalizada */
-        }
+
     </style>
 </head>
 <body>
+    <div class="top-bar">
+        <div class="logo">Eng_Agro_Geo</div>
+        <ul class="tabs">
+            <li class="tab"><a href="index.html" class="tab-link">Editorial</a></li>
+            <li class="tab"><a href="lei.html" class="tab-link">Lei 5194/66</a></li>
+            <li class="tab"><a href="crea.html" class="tab-link">CREA-SP</a></li>
+            <li class="tab"><a href="confea.html" class="tab-link">CONFEA</a></li>
+            <li class="tab"><a href="mutua.html" class="tab-link">MUTUA-SP</a></li>
+            <li class="tab"><a href="formulario.html" class="tab-link">Vamos Conversar</a></li>
+            <li class="tab"><a href="candidatos.html" class="tab-link">Candidatos à Presidência do CREA-SP</a></li>
+        </ul>
+    </div>
+    <header>
+     	<h1>Eleições no sistema CONFEA CREA MUTUA<h1>
+         
+         <h1>Movimento por uma Gestão Democrática do CREA-SP<h1>
+
+    </header>
     <div class="container">
-        <div class="top-bar">
-            <div class="logo">E_A_G</div>
-            <ul class="tabs">
-                <li class="tab"><a href="index.html" class="tab-link">Editorial</a></li>
-                <li class="tab"><a href="lei.html" class="tab-link">Lei 5194/66</a></li>
-                <li class="tab"><a href="crea.html" class="tab-link">CREA-SP</a></li>
-                <li class="tab"><a href="confea.html" class="tab-link">CONFEA</a></li>
-                <li class="tab"><a href="mutua.html" class="tab-link">MUTUA-SP</a></li>
-                <li class="tab"><a href="formulario.html" class="tab-link">Vamos Conversar</a></li>
-                <li class="tab"><a href="candidatos.html" class="tab-link">Candidatos à Presidência do CREA-SP</a></li>
-            </ul>
-        </div>
-        <div class="content">
-            <div class="title">
-                <strong style="color: #000000;">Eleições no sistema CONFEA CREA MUTUA</strong>
-                <br>
-                <strong style="color: #000000;">Movimento por uma Gestão Democrática do CREA-SP</strong>
-            </div>
-            <p class="left-align"><strong>Prezados profissionais de engenharia,</strong></p>
-            <!-- Resto do conteúdo -->
-            <div class="text left-align double-space">
+        <strong>Prezados profissionais de engenharia,</strong></p>
+
 	    Em 17/11/2023, os profissionais de  engenharia  participarão de eleições democráticas  que definirão simultaneamente os gestores do Conselho Regional de 	    Engenharia e Agronomia do estado de São Paulo “Crea-SP”, e do Conselho Federal de engenharia e  Agronomia do Brasil  “Confea” , para o triênio 2024-2026. 	    Em que pese a descrença generalizada dos profissionais com tais Conselhos, estas eleições, para o bem ou para o mal,  representam  a única  oportunidade 	    real de oxigenação e mudanças no referido Sistema, razão pela qual, as escolhas que fizermos  precisam estar além do balcão de negócios. Apesar de ser uma 	    eleição diferenciada, pois, todos os eleitores são portadores de um diploma de curso superior, nem por isso, elas  contrastam com as eleições de ruas que 	    elegem nossos deputados senadores, prefeitos e governadores. É notório em ambientes político-partidários, a facilidade com que prosperam propagandas 	    enganosas, promessas irrealizáveis, narrativas inverídicas, uso da máquina administrativa,  corrupção, além de outros  malfeitos diariamente exibidos na 	    mídia.
 	    <br>
 	    Nos últimos anos, salvo ledo engano, alguns desses procedimentos, começam a contaminar a gestão dos Conselhos Regionais, colocando em risco os legítimos 	    interesses e atividades fins da engenharia. 
@@ -134,15 +170,17 @@
 	    A Nação Crea- SP tem esperança gigante de que a compostura, isenção administrativa, ética e respeito ao ser humano e a coisa púbica, também integrarão esse 	    projeto coletivo. 
 	    <br> 
 	    Nesse sentido, independentemente de quem vencer as eleições e, em17/11/23, teremos registrado e aprovado na primeira  plenária anual, um projeto 	    compromissado e moldado pela vontade da maioria dos profissionais de engenharia do Crea- SP para o  triênio 2024-2026 “- Enfim um  Plano de Gestão 	    exequível pactuando e justificando  os desafios de uma administração em tempos de mudanças continuas e ágeis que  se não for conduzido adequadamente pelos 	    postulantes ao cargo, todo o sistema poderá colapsar. Em síntese, a participação majoritária de todos os profissionais de engenharia nesse processo de 	    escolha é fundamental e poderá ser histórica para as mudanças  que todos querem ver materializadas no Sistema Confea/Crea(s)/Mutua. 
-	    <br> 	    
-        </div>
-	        <p class="double-space important-text">SUA PARTICIPAÇÃO NA ESCOLHA É IMPORTANTE, VOTE NO MELHOR!</p>
-        <a href="mailto:ocreaparaosengenheiros@gmail.com" class="icon">
+	    <br>
+
+		<div class="centro"> 	
+	    <p class="double-space important-text">SUA PARTICIPAÇÃO NA ESCOLHA É IMPORTANTE, VOTE NO MELHOR!<br>
+            <a href="mailto:ocreaparaosengenheiros@gmail.com" class="icon">
             <img src="envelope_icon.png" alt="Ícone de envelope">
             <br>
             <span class="icon">Vamos conversar?</span></p>
         </a>
-        <div class="text left-align double-space">
+	</div>
+	<br>
         Para viabilizar essa proposta foi criado este espaço, que pode ser acessado através do site: https://engagrogeo.github.io/Eleicoes_2023/index.html,para:</p>
 	    1- Dar oportunidade para que todos os candidatos possam conectar-se entre si, e, localmente e regionalmente, com os eleitores do Sistema possibilitando o dialogo. </p>
 	    2- Hospedar os Planos de Gestão dos candidatos explicitando suas ideias realizadoras para o Crea-SP durante o triênio 2024-2026. </p>
@@ -166,8 +204,6 @@
         B - Plano de gestão para o Crea-SP referente ao triênio 2024-2026</p>
         C - Perguntas escritas dos eleitores</p>
         D - respostas dos candidatos ( escrita ou no formato podcast)</p>
-        </div>
     </div>
 </body>
 </html>
-
