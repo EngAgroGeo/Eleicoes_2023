@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eng_Agro_Geo</title>
+    <style>
+        /* Estilos CSS para a página */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            line-height: 1.618; /* Proporção áurea para espaçamento entre linhas */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 1.618em; /* Proporção áurea */
+            margin-bottom: 20px; /* Espaçamento adequado */
+        }
+
+        p {
+            font-size: 1em; /* Tamanho de fonte base */
+            margin-bottom: 1.618em; /* Espaçamento adequado entre parágrafos */
+        }
+
+        /* Estilos para links */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo para o botão */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.618em; /* Tamanho de fonte com proporção áurea */
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilos da barra de ferramentas */
+        .top-bar {
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .tab {
+            font-weight: normal;
+            font-size: 16px;
+            cursor: pointer;
+            transition: font-weight 0.2s, font-size 0.2s;
+        }
+
+        .tab a {
+            text-decoration: none;
+            color: #f2f0e6; /* Branco Gelo */
+        }
+
+        .tab:hover {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Estilo para remover negrito do texto específico */
+        .remove-negrito {
+            font-weight: normal !important;
+        }
+        .double-space {
+            line-height: 2;
+        }
+        .important-text {
+            font-size: 48px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #ffcc00; /* Cor personalizada */
+        }
+        .icon {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #000000; /* Preto */
+            transition: transform 0.2s;
+        }
+        .icon:hover {
+            transform: scale(1.1);
+        }
+        .icon img {
+            width: 80px;
+            vertical-align: middle;
+        }
+        .left-align {
+            text-align: left;
+        }
+        .centro {
+            text-align: center;
+        }
+
+/* Estilo para os post-its */
+.post-its-container {
+    display: flex;
+    justify-content: space-between; /* Distribui os post-its uniformemente */
+    flex-wrap: wrap; /* Permite que eles quebrem para a próxima linha se não couberem na largura */
+    margin-top: 20px; /* Espaçamento entre a matriz de post-its e o conteúdo */
+}
+
+.post-it {
+    flex: 0 1 calc(30% - 20px); /* Reduzi a largura para 30% (ajuste conforme necessário) */
+    background-color: #ffcc00; /* Cor personalizada */
+    padding: 20px;
+    margin-bottom: 20px; /* Espaçamento entre os post-its verticalmente */
+    border: 1px solid #000;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+.post-it:hover {
+    transform: scale(1.1);
+}
+
+.post-it a {
+    color: #000; /* Cor do texto */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">Eng_Agro_Geo</div>
+        <ul class="tabs">
+            <li class="tab"><a href="informe.html" class="tab-link">Informações Gerais</a></li> <!-- Nova aba -->
+            <li class="tab"><a href="index.html" class="tab-link">Editorial</a></li>
+            <li class="tab"><a href="candidatos.html" class="tab-link">Candidatos à Presidência do CREA-SP</a></li>
+            <li class="tab"><a href="conselho.html" class="tab-link">O que é um Conselho Profissional</a></li> <!-- Nova aba -->
+            <li class="tab"><a href="lei.html" class="tab-link">Lei 5194/66</a></li>
+            <li class="tab"><a href="formulario.html" class="tab-link">Vamos Conversar</a></li>            <li class="tab"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfv9ybGohVM90zSGhzL3iYrEKX8OjLNBghELAHIKMgAepc5fw/viewform?usp=pp_url" class="tab-link">Envie suas perguntas aos Candidatos</a></li>        </ul>
+    </div>
+    <header>
+     	<h1>VOCE SABE O QUE É UM CONSELHO PROFISSIONAL?<h1>
+         
+         <h1>POR QUE ELES EXISTEM?<h1>
+
+    </header>
+    <div class="container">
+        <!-- Seu conteúdo HTML aqui -->
+
+	    <strong>I-CONSELHOS DE CLASSE PROFISSIONAL– </strong>De acordo com a definição do fiscaliza brasil, os Conselhos de Classe Profissional podem ser Federais, Regionais e/ou estaduais e São considerados “ autarquias especiais, ou corporativas –Aplicando a definição para o Conselho Regional de Engenharia e Agronomia do estado de São Paulo “ Crea -SP” , ele tem por finalidade registrar, disciplinar, controlar e fiscalizar o exercício profissional, e, elaborar resoluções pertinentes para a funcionalidade do Sistema, objetivando o cumprimento de sua MISSÃO, e garantir sua visão de futuro e de seus valores.
+	    </p>
+
+	    <strong>MISSÃO-</strong>  DAR PROTEÇÃO E SEGURANÇA A SOCIEDADE, NAS ÁREAS DE CONHECIMENTO DAS ENGENHARIAS ATUANDO NO EXERCÍCIO  E NA  FISCALIZAÇÃO PROFISSIONAL, PAUTADO NO COMPROMISSO COM A QUALIDADE, ÉTICA, SEGURANÇA E DESENVOLVIMENTO NACIONAL .  
+	    </p>
+
+	    <strong>A VISÃO DE FUTURO DO CREA-SP-</strong>  Ser reconhecido pela sociedade como uma instituição modelo de integração organizacional democrática,com foco nas boas práticas  administrativas ,valorização de pessoas, e de fiscalização profissional.
+	    </p>
+
+	    <strong>Os valores do CREA-SP</strong> estão referenciados em princípios éticos , transparência, unicidade , qualidade na prestação de serviços, inovação, compromisso e dedicação.
+	    </p>
+
+ 	    <strong>II-COMPONENTIZAÇÃO DO  CREA-SP:</strong> Estrutura básica-Estrutura de suporte e Estrutura Auxiliar
+	    </p>
+
+	    <strong>Estrutura Básica– </strong>Instancia decisória e/ou executiva que responde pelo desempenho integrado das finalidades do conselho, sendo composta por: Plenário, Câmaras especializada, Presidência ,diretoria, Inspetorias
+	    </p>
+
+	    <strong>Estrutura de suporte- </strong>Apoia os órgãos da estrutura Básica ,sendo composta por órgãos  de caráter permanentes ,especial ou temporário tais como, Comissões, Grupos de trabalho, Grupos consultivos (Colégio de Entidades Regionais de São Paulo ”CDER-SP”, Colégio de Instituições de Ensino –“CIES”, Fórum das entidades de Classes , fórum das entidades de  ensino.
+	    </p>
+
+	    <strong>Estrutura  auxiliar- </strong>Diretamente subordinada à presidência , responde  pelos serviços administrativos, financeiros, jurídicos ,que dão suporte a estrutura básica e estrutura  de suporte para fiscalização do exercício profissional e gestão do conselho. É supervisionada pelo Secretário Geral e gabinete da Presidência . As  ações são realizadas por meio de  5 Superintendências(Administrativa,  Colegiados Fiscalização Tecnologia e comunicação)
+	    </p>
+
+	    <strong>ASSOCIAÇÕES PROFISSIONAIS:</strong> Objetiva o aprimoramento profissional, divulgação e valorização da profissão. As Associações se aglomeram regionalmente constituindo-as  Uniões  
+	    </p>
+
+	    <strong>SINDICATOS- </strong>objetivam a defesa judicial e extrajudicial dos interesses da Categoria profissional que representam.
+
+	    </p>
+
+<!-- No final da sua página HTML -->
+
+        <div class="post-its-container">
+        <div class="post-it">
+            <a href="CREA.html">Saiba mais sobre o CREA-SP</a>
+        </div>
+        <div class="post-it">
+            <a href="Confea.html">Saiba mais sobre o CONFEA</a>
+        </div>
+        <div class="post-it">
+            <a href="Mutua.html">Saiba mais sobre a MÚTUA</a>
+        </div>
+    </div>
+
+
+
+    </div>
+</body>
+</html>
