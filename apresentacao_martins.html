@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleições 2023</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .candidate-info {
+            text-align: center;
+        }
+        .desc-info {
+            text-align: left;
+        }
+        .candidate-photo {
+            max-width: 200px;
+            margin: 0 auto;
+        }
+        .post-it-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .post-it {
+            flex: 1;
+            background-color: #ffcc00;
+            padding: 20px; /* Altura dobrada */
+            margin: 10px;
+            border: 2px solid #ff9900;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center; /* Centraliza o texto */
+            font-weight: bold; /* Texto em negrito */
+        }
+        .post-it:hover {
+            background-color: #ff9900;
+            color: #fff;
+        }
+        .previous-page-link {
+            text-align: center;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .previous-page-link:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="candidate-info"></p>
+
+            <img src="Martins_Red.jpg" alt="Foto do Candidato" class="candidate-photo">
+            <h1>Roberto Martins</h1>
+            <h2>Formação Acadêmica</h2>
+	    <div class="desc-info"></p>
+            
+            • Graduação:<br>
+	    Engenheria Elétrica;<br>
+	    Administração de Empresas;</p>
+	    • Pós-Graduação 
+	    Engenharia de Segurança do trabalho; <br>
+	    Empeendedorismo e Inovação Tecnológica nas Engenharias;</p>
+
+	    </div>
+            <h2>Experiências Profissionais</h2>
+	    <div class="desc-info">
+            </p>
+	    Conselheiro Federal CONFEA - 2014 / 2016; <br>
+	    Conselheiro Estadual da camara de Engenharia Elétrica no CREA-SP - 2002 / 2007; 2010 / 2013; 2019 / 2022; <br>
+	    Diretor Técnico do CREA-SP - 2021;<br>
+	    Diretor de Relações Institucionais do CREA-SP - 2010 / 2011;<br>
+	    Engenheiro Eletricista no Setor Elétrico Paulista - CESP/SP;<br>
+	    Administrador de empresas;<br>
+	    Empresário do setor elétrico; <br>
+	    Superintendente de Programas e Projetos do CONFEA; <br>
+	    Gerente de Projetos da Usina Tes irmãos; <br>
+	    Gerente do Departamento de Engenharia e Manutenção da CEAGESP/SP;<br>
+	    Secretário de Obras da Subprefeitura de Ermelindo Matarazzo/SP;<br>
+	    Técnico em Eletrotécnica, Usina Hidroelétrica de Ilha Solteira/SP; <br>
+	    Eletricista Instalador, Usina Hidroelétrica de Ilha Solteira/SP;<br>
+	    Autor do primeiro projeto de Automação de subestações do Brasil, subestação de Guarujá III - 138kV;<br>
+	    Premio segunso lugar - STARTUP Logistica Reversa, lixo eletronico - Pós Graduação CREASP/UNESP/UNIVESP; 
+
+ </p>
+
+	    </div>
+            <h2>Sistema Confea/CREA</h2>
+            <p>
+		</p>
+        </div>
+        
+        <div class="post-it-container">
+            <div class="post-it" onclick="openPage('pdf_Martins.jpg')">Plano de Governo</div>
+            <div class="post-it" onclick="openPage('https://youtube.com/shorts/dd-1iqznRbA')">Vídeo de Apresentação</div>
+            <div class="post-it" onclick="openPage('perguntas-e-respostas.html')">Perguntas e Respostas ao Candidato</div>
+        </div>
+
+        <div class="previous-page-link" onclick="openPage('candidatos.html')">
+            <svg width="50" height="50" viewBox="0 0 24 24">
+                <path fill="black" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v7h-2z"/>
+            </svg>
+            <p>Página Anterior</p>
+        </div>
+    </div>
+
+    <script>
+        function openPage(pageUrl) {
+            window.open(pageUrl, '_blank');
+        }
+    </script>
+</body>
+</html>
